@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #08081b;
+    color: #fff;
+    margin: 0;
+}
+header {
+    display: flex;
+    padding: 1rem;
+    background-color: #0d151f;
+}
+.site-name {
+    margin-right: 1rem;
+}
+.nav-link {
+    color: #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.top__wrapper {
+    background:url(../img/blue-night-1.jpeg) no-repeat center/cover;
+}
+.about__wrapper {
+    background-color: #0c0c2c;
+    background:url(../img/blue-night-2.jpeg) no-repeat center/cover;
+}
+.contact__wrapper {
+    background-color: #0c0c2c;
+}
