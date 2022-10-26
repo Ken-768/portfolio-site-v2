@@ -47,6 +47,10 @@
     border-bottom: .2rem solid #eee;
 }
 
+.my-info1 .service-detail, .my-info2 .service-detail{
+    border-bottom: none;
+}
+
 .services {
     margin: 2rem 0;
     display: flex;
