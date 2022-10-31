@@ -1,23 +1,20 @@
-.prod main {
+.product-main {
     display: block;
 }
 
 .product {
-    margin: 0 3rem;
+    padding: 0 2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
 }
-
-main .profile {
-    width: 100%;
-    padding: 1rem 2rem;
+.product-title {
+    margin-left: 2rem;
 }
-
-.product-title h1 {
+.product-title h2 {
     width: 30%;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 1rem 0;
     border-bottom: .2rem solid #ff4e4e;
 }
@@ -80,55 +77,40 @@ main .profile {
     width: 100%;
 }
 
-@media screen and (max-width:415px) {
-    main .profile {
-        padding: 0 1rem;
+@media screen and (max-width: 414px) {
+    .product {
+        padding: 0;
+        align-items: center;
     }
-
+    .product-title h2 {
+        width: 50%;
+        font-size: 2rem;
+    }
     .tab-group {
         max-width: 300px;
     }
-
     .tab p {
         font-size: .8rem;
     }
-
-    .content.is-show {
-        grid-template-columns: auto;
+    .product-category {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
+    .product-all .product-name, .product-all a {
+        display: flex;
+        justify-content: center;
+    }
+    .product-name {
+        font-size: 1rem;
+    }
     .product-all {
+        width: 85%;
+    }
+    .content.is-show {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-
-    .product-all img {
-        width: 95%;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .product-title h1 {
-        font-size: 2rem;
-    }
-
-    .tab-group {
-        max-width: 300px;
-    }
-
-    .tab p {
-        font-size: .7rem;
-        white-space: nowrap;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .tab-group {
-        max-width: 250px;
-    }
-
-    .tab p {
-        font-size: .5rem;
+        align-items: center;
     }
 }

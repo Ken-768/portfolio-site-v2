@@ -182,7 +182,7 @@ main .profile {
     height: 3.5rem;
     width: 3.5rem;
     border-radius: 50%;
-    background-color: orange;
+    background-color: #ff4e4e;
     display: inline-block;
     text-align: center;
     margin: 0 .5rem;
@@ -236,9 +236,3 @@ main .profile {
         display: flex;
     }
 }
-
-/* @media screen and (max-width:414px){
-    .black-bg {
-        display: flex;
-    }
-} */
