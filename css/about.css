@@ -6,21 +6,10 @@
     justify-content: left;
 }
 
-/* .about-me h1 {
-    width: 100%;
-    font-size: 3rem;
-    margin: 1rem 0;
-    border-bottom: .2rem solid red;
-} */
-
-.about-me h3 {
-    width: 100%;
-    font-size: 2rem;
-    margin: 1rem 0;
-}
-
-.about-me h3 span {
-    color: #ff4e4e;
+.about h2 {
+    font-size: 2.5rem;
+    border-bottom: .2rem solid #ff4e4e;
+    max-width: 300px;
 }
 
 .my-info__container {
@@ -44,11 +33,6 @@
     margin: 1rem 0;
     width: 90%;
     max-width: 330px;
-    /* border-bottom: .2rem solid #eee; */
-}
-
-.my-info1 .service-detail, .my-info2 .service-detail{
-    border-bottom: none;
 }
 
 .services {
@@ -57,7 +41,7 @@
     flex-wrap: wrap;
 }
 
-.services .service {
+.services .service-title {
     color: #bbb;
     font-size: 1.4rem;
     font-weight: bold;
@@ -77,12 +61,6 @@
     justify-content: space-between;
 }
 
-.about h2 {
-    font-size: 2.5rem;
-    border-bottom: .2rem solid #ff4e4e;
-    max-width: 300px;
-}
-
 .my-skills .skill-container {
     display: flex;
     flex-direction: column;
@@ -99,7 +77,7 @@
     width: 30%;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:768px) {
     .my-info__container {
         display: flex;
         flex-direction: column;
