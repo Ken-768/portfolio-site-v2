@@ -36,8 +36,8 @@ header {
 
 header .logo {
     margin: 1rem auto;
-    height: 9vh;
-    width: 7vw;
+    height: 180px;
+    width: 180px;
 }
 
 header .nav {
@@ -52,7 +52,7 @@ header .nav {
 
 header .nav .nav-page {
     text-decoration: none;
-    color: red;
+    color: #ff4e4e;
 }
 
 header .nav a {
@@ -115,7 +115,7 @@ main {
 }
 
 .black-bg {
-    display: flex;
+    display: none;
     justify-content: center;
     position: fixed;
     left: 0;
@@ -196,8 +196,8 @@ main .profile {
 }
 
 @media screen and (max-width:1240px) {
-    * {
-        overflow-y: auto;
+    main {
+        overflow: scroll;
     }
 
     header {
@@ -231,4 +231,14 @@ main .profile {
         text-decoration: none;
         color: #333;
     }
+
+    .black-bg {
+        display: flex;
+    }
 }
+
+/* @media screen and (max-width:414px){
+    .black-bg {
+        display: flex;
+    }
+} */

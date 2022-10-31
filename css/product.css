@@ -19,7 +19,7 @@ main .profile {
     width: 30%;
     font-size: 3rem;
     margin: 1rem 0;
-    border-bottom: .2rem solid red;
+    border-bottom: .2rem solid #ff4e4e;
 }
 
 .product-category {
@@ -59,7 +59,7 @@ main .profile {
 }
 
 .tab.is-active{
-    background:#F00;
+    background:#ff4e4e;
     color:#FFF;
     transition: all 0.2s ease-out;
 }
@@ -81,12 +81,30 @@ main .profile {
 }
 
 @media screen and (max-width:415px) {
+    main .profile {
+        padding: 0 1rem;
+    }
+
     .tab-group {
         max-width: 300px;
     }
 
     .tab p {
         font-size: .8rem;
+    }
+
+    .content.is-show {
+        grid-template-columns: auto;
+    }
+
+    .product-all {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .product-all img {
+        width: 95%;
     }
 }
 
