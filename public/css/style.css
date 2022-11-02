@@ -197,7 +197,8 @@ main .profile {
 
 @media screen and (max-width:1240px) {
     main {
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     header {
