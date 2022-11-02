@@ -1,0 +1,97 @@
+.about {
+    margin: 1rem 1rem 1rem 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    border-bottom: .2rem solid #ff4e4e;
+    max-width: 300px;
+}
+
+.my-info__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.my-info1, .my-info2{
+    margin: 1rem 0;
+    width: 50%;
+    color: #bbb;
+}
+
+.my-info1 span, .my-info2 span {
+    color: #dedede;
+}
+
+.my-info1 p, .my-info2 p {
+    margin: 1rem 0;
+    width: 90%;
+    max-width: 330px;
+}
+
+.services {
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services .service-title {
+    color: #bbb;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-bottom: 1px solid #bbb;
+    max-width: 150px;
+    margin: 1rem 0;
+}
+
+.services .service-detail {
+    max-width: 500px;
+    font-size: 1rem;
+}
+
+.my-skills {
+    margin: 3rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-skills .skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-container p {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.skill-container img {
+    width: 30%;
+}
+
+@media screen and (max-width:768px) {
+    .my-info__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-info1, .my-info2 {
+        width: 100%;
+    }
+
+    .about-me h1 {
+        font-size: 2rem;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+}
